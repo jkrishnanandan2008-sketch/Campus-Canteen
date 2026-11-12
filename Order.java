@@ -22,7 +22,7 @@ public class Order {
     }
     
     public double getTotal() {
-        return item.getPrice()*getQuantity();
+        return item.getPrice() * quantity ;
     }
     
 }
